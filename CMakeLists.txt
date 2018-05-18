@@ -4,6 +4,24 @@ cmake_minimum_required (VERSION 3.2)
 # Project name
 project (osqp)
 
+### yvaind ################################################################
+##############
+### CATKIN ###
+##############
+# Find Catkin
+find_package(catkin REQUIRED COMPONENTS
+)
+
+# Declare this project as a catkin package
+catkin_package(
+ INCLUDE_DIRS include
+ LIBRARIES osqp
+ CATKIN_DEPENDS
+# DEPENDS system_lib
+)
+
+###########################################################################
+
 # Set the output folder where your program will be created
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR}/out)
 set(LIBRARY_OUTPUT_PATH ${PROJECT_BINARY_DIR}/out)

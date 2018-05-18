@@ -1,0 +1,10 @@
+<package>
+  <name>osqp</name>
+  <version>0.0.0</version>
+  <description>osqp</description>
+  <maintainer email="yvaind@ethz.ch">Yvain de Viragh</maintainer>
+  <license>BSD</license>
+  <author email="yvaind@ethz.ch">Yvain de Viragh</author>
+  <buildtool_depend>catkin</buildtool_depend>
+</package>
+
